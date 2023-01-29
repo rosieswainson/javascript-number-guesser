@@ -6,11 +6,7 @@
 body {
   margin: 0 auto;
   padding: 3px;
-  background-image: url(./Background.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #fff;
+  background-color: rgb(74, 167, 253);
 }
 
 .game-container {
@@ -189,14 +185,17 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .instructions {
-  background-color: #ececec;
+  background-color: #f2a8d7;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-content: space-between;
+  margin: 0 50px;
+  /* justify-content: space-around; */
 }
 
 .instruction {
-  width: 180px;
+  width: 250px;
   padding: 2px;
   text-align: center;
 }
